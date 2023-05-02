@@ -1,0 +1,245 @@
+body{
+  padding-bottom: 1000px;
+  margin: 0;
+  background: linear-gradient(240deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+  opacity: 1;
+  top: 0px;
+}
+
+nav{
+  /* background-color: rgba(137, 51, 243, 0); */
+  padding: 20px 20px 0px 20px;
+  padding-bottom: 0px;
+  left: 0px;
+  right: 0px;
+  /* position: fixed; */
+  z-index: 1;
+}
+
+#name{
+  color: whitesmoke;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  padding-left:20px;
+  
+}
+
+/* .container{
+  width: 100%;
+  height: 100vh;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+/* }  */
+
+.container{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.auto-type{
+  display: block;
+  /* margin-top: 0px; */
+}
+.container h1{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-left: 80px;
+  margin-top: 100px;
+  background-color: #222;
+  width: 100px;
+  color: whitesmoke;
+
+  /* line-height: 0px; */
+}
+
+.container h2{
+  padding-left: 80px;
+  font-size: 80px;
+  width: 500px;
+  margin-top: 0px;
+}
+.pic{
+  position: absolute;
+  width: 500px;
+  right: 50px;
+  /* left: 340px; */
+  border-radius: 30% 70% 70% 30% / 30% 37% 63% 70% ;
+  top: 60px;
+  transition: border-radius 500ms ease-in-out;
+}
+
+.pic:hover{
+  border-radius:76% 24% 78% 22% / 24% 74% 26% 76%   ;
+}
+
+.about-me{
+
+  width: 900px;
+  position: absolute;
+  top: 600px;
+  /* padding-left: 150px; */
+  margin-left: 100px;
+  font-size: 25px;
+  background-color: #222222c6;
+  padding: 10px 30px 20px 15px;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+
+.about-me-content{
+  font-size: 20px;
+  font-weight:100;
+  font-family: 'Asap', sans-serif;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  /* justify-content: center; */
+}
+.about-me-head{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  color: #daa520;
+  margin-top: 10px;
+  font-family: 'Asap', sans-serif;
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.skills{
+  width: 900px;
+  margin-left: 100px;
+  top: 880px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+
+.current-skills{
+  width: 300px;
+  background-color: #222222c6;
+  /* margin-left: 200px; */
+  margin-right: 100px;
+  padding: 10px;
+  border-radius:20px ;
+}
+
+.learning-skills{
+  background-color: #222222c6;
+  padding: 10px;
+  border-radius:20px ;
+}
+
+.current-skills-head{
+  padding-bottom: 15px;
+  color: #daa520;
+  margin-top: 10px;
+  font-family: 'Asap', sans-serif;
+  font-size: 30px;
+  font-weight: 400px;
+  padding-left: 15px;
+}
+
+.current-skills-content{
+  font-size: 20px;
+  font-weight:100;
+  font-family: 'Asap', sans-serif;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  color: whitesmoke;
+}
+
+.learning-skills-content{
+  font-size: 20px;
+  font-weight:100;
+  font-family: 'Asap', sans-serif;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  color: whitesmoke;
+
+}
+
+.learning-skills-head{
+  padding-bottom: 15px;
+  color: #daa520;
+  margin-top: 10px;
+  font-family: 'Asap', sans-serif;
+  font-size: 30px;
+  font-weight: 400px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.contact{
+  top: 1120px;;
+  position: absolute;
+  background-color: #222222c6;
+  width: 900px;
+  margin-left: 100px;
+  border-radius: 25px;
+  font-family: 'Asap', sans-serif;
+
+}
+
+.contact-head{
+  padding-bottom: 15px;
+  color: #daa520;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: 400px;
+  padding-left: 20px;
+}
+
+.contact-details{
+  margin-left: 15px;
+  padding: 10px;
+  color: whitesmoke;
+  
+}
+
+.mailid{
+  padding-left: 20px;
+  font-family: 'Asap', sans-serif;
+  padding-bottom: 10px;
+}
+
+.num{
+  padding-left:27px;
+  font-family: 'Asap', sans-serif;
+
+}
+
+.mail{
+  padding-bottom: 20px;
+
+}
+
+.no{
+  padding-bottom: 15px;
+
+}
+
+.social-media{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  color: white !important;
+  z-index: 1;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
