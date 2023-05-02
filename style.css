@@ -16,13 +16,13 @@ nav{
   z-index: 1;
 }
 
-#name{
+/* #name{
   color: whitesmoke;
   font-family: 'Pacifico', cursive;
   font-size: 30px;
   padding-left:20px;
   
-}
+} */
 
 /* .container{
   width: 100%;
@@ -85,7 +85,7 @@ nav{
   background-color: #222222c6;
   padding: 10px 30px 20px 15px;
   color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Bebas Neue', cursive;
   border-radius: 20px;
   padding-bottom: 30px;
 }
@@ -108,7 +108,9 @@ nav{
   padding-bottom: 15px;
   color: #daa520;
   margin-top: 10px;
-  font-family: 'Asap', sans-serif;
+  /* font-family: 'Asap', sans-serif;
+   */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   font-weight: 400px;
 }
@@ -120,6 +122,7 @@ nav{
   position: absolute;
   display: flex;
   justify-content: space-around;
+  /* font-family: 'Bebas Neue', cursive !important; */
 }
 
 .current-skills{
@@ -127,13 +130,15 @@ nav{
   background-color: #222222c6;
   /* margin-left: 200px; */
   margin-right: 100px;
-  padding: 10px;
+  padding: 15px;
   border-radius:20px ;
 }
 
 .learning-skills{
   background-color: #222222c6;
   padding: 10px;
+  width: 300px;
+
   border-radius:20px ;
 }
 
@@ -189,16 +194,17 @@ nav{
   margin-left: 100px;
   border-radius: 25px;
   font-family: 'Asap', sans-serif;
-
+  color: #ffffff;
 }
 
 .contact-head{
+  padding-left: 30px;
   padding-bottom: 15px;
+  padding-top: 10px;
   color: #daa520;
   margin-top: 15px;
   font-size: 30px;
   font-weight: 400px;
-  padding-left: 20px;
 }
 
 .contact-details{
@@ -234,7 +240,7 @@ nav{
   display: flex;
   justify-content: space-around;
   padding-bottom: 20px;
-  color: rgb(255, 255, 255) !important;
+  fill: #fff !important;
 }
 
 .section{
